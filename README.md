@@ -1,7 +1,21 @@
 # Java 14 new features :
 ## Patern matching instance of 
+```
+if(vehicle instanceof Car car) {
+    ystem.out.println("Driving Speed "+ car.drivingSpeed());
+}
+```
 ## Switch expression
+```
+switch(day.toLowerCase()) {
+    case "saturday" -> { System.out.println("Hey it's saturday"); }
+}
+```
 ## Record for DTOs
+```
+public record User(String firstName,String lastName) {
+}
+```
 ## Helpful nullpointer exception
 Regular logging
 ```
