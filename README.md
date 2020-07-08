@@ -2,7 +2,7 @@
 ## Patern matching instance of 
 ```
 if(vehicle instanceof Car car) {
-    ystem.out.println("Driving Speed "+ car.drivingSpeed());
+    System.out.println("Driving Speed "+ car.drivingSpeed());
 }
 ```
 ## Switch expression
